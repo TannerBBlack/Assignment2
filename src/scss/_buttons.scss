@@ -1,0 +1,40 @@
+@use "button-font" as *;
+@use "button-size" as *;
+
+.footer-button {
+    @include font;
+    @include size;
+  color: white;
+  border: 3px solid #fff;
+  background-color: #FB7852;
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+  font-family: $family;
+  font-weight: $weight;
+  font-size: $size;
+}
+
+.filled-button {
+  color: white;
+  border: 3px solid #FB7852;
+  background: #FB7852;
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+  font-family: $family;
+  font-weight: $weight;
+  font-size: $size;
+}
+
+.outlined-button {
+color: #FB7852;
+border: 3px solid #FB7852;
+background-color: #fff;
+width: $width;
+height: $height;
+border-radius: $radius;
+font-family: $family;
+font-weight: $weight;
+font-size: $size;
+}

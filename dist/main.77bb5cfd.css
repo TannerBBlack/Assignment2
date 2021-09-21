@@ -1,0 +1,118 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Open Sans";
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #79706E;
+  text-decoration: none;
+}
+
+#sign-up {
+  color: #3964FA;
+  font-weight: 800;
+}
+
+.footer-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: 339px;
+  height: 48px;
+  border-radius: 16px;
+  color: white;
+  border: 3px solid #fff;
+  background-color: #FB7852;
+  width: 339px;
+  height: 48px;
+  border-radius: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.filled-button {
+  color: white;
+  border: 3px solid #FB7852;
+  background: #FB7852;
+  width: 339px;
+  height: 48px;
+  border-radius: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.outlined-button {
+  color: #FB7852;
+  border: 3px solid #FB7852;
+  background-color: #fff;
+  width: 339px;
+  height: 48px;
+  border-radius: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #FB7852;
+  margin-bottom: 0;
+  padding: 0;
+  padding-right: 105px;
+}
+.footer figure {
+  height: 100%;
+  margin: 0;
+}
+.footer h1, .footer p {
+  color: white;
+}
+
+.body {
+  max-width: 1280px;
+  margin: auto;
+}
+.body h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 50px;
+}
+.body h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+}
+.body p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+
+.section {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.section-content {
+  text-align: center;
+  margin: auto;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */

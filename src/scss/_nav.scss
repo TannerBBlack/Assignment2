@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Open Sans";
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        li {
+            list-style: none;
+            a {
+                color: #79706E;
+                text-decoration: none;
+              }
+          }
+      }
+  }
+
+  #sign-up {
+    color: #3964FA;
+    font-weight: 800;
+  }

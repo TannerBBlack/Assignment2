@@ -1,0 +1,43 @@
+@use "section" as s;
+
+@import "nav";
+
+@import "buttons";
+
+@import "footer";
+
+.body {
+    max-width: 1280px;
+    margin: auto;
+    h1 {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 50px;
+    }
+    h2 {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #79706E;
+    }
+}
+
+.section {
+    @include s.b-space;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: s.$b-margin;
+  }
+  
+  .section-content {
+    text-align: center;
+    margin: auto;
+  }
